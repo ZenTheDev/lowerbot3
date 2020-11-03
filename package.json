@@ -1,0 +1,23 @@
+{
+
+  "name": "lowerbot3",
+
+  "description": "funny haha bot",
+
+  "version": "1.0.0",
+
+  "main": "bot.py",
+
+  "scripts": {
+
+    "start": "python bot.py"
+
+  },
+
+  "dependencies": {
+
+    "discord.py": "1.3.4"
+
+  }
+
+}
