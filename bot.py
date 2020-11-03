@@ -316,10 +316,7 @@ try:
 
     client = LowerBot3()
 
-    def runClient(thread_name):
-        print(f'{thread_name} has started')
-        client.run(env)
-    start_thread(runClient, ('Client-Thread',))
+    client.run(env)
 except:
     print_exc()
     input()
