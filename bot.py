@@ -87,7 +87,7 @@ try:
                 Logging.LogCommand('Cat', message)
 
                 catEmbed = discord.Embed(title='Random Cat', description='Images are from [r/Cats](https://www.reddit.com/r/cats/) and [r/catselfies](https://www.reddit.com/r/catselfies/)', color=0x3E9AEA)
-                random_file = str(rchoice(listdir(path.dirname(__file__) + '\\Cats\\')))
+                random_file = str(rchoice(listdir(path.dirname(__file__) + 'Cats/')))
                 file = discord.File('Cats/' + random_file, filename='image.jpeg')
                 catEmbed.set_image(url='attachment://image.jpeg')
                 await send(embed=catEmbed, file=file)
@@ -95,7 +95,7 @@ try:
                 Logging.LogCommand('Dog', message)
 
                 dogEmbed = discord.Embed(title='Random Dog', description='Images are from [r/dogpictures](https://www.reddit.com/r/dogpictures/) and [r/doggos](https://www.reddit.com/r/doggos/)', color=0x3E9AEA)
-                random_file = str(rchoice(listdir(path.dirname(__file__) + '\\Dogs\\')))
+                random_file = str(rchoice(listdir(path.dirname(__file__) + 'Dogs/')))
                 file = discord.File('Dogs/' + random_file, filename='image.jpeg')
                 dogEmbed.set_image(url='attachment://image.jpeg')
                 await send(embed=dogEmbed, file=file)
