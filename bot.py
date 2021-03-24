@@ -178,9 +178,49 @@ try:
                         'got CBTed too hard and died',
                         'tried to use an ant mound as a fleshlight, and didn\'t realize it was a bullet ant mound',
                         'failed the vibe check',
-                        'went passed the integer limit'
+                        'went passed the integer limit',
+                        'watched Amy Schumer',
+                        'posted memes in general',
+                        'was pinged and got so mad they shit themselves and started cwying wike a wittwe baby boi boohoo shit turd poopy in their diaper cuz they are a totaw baby about getting pingwed boohoo ):',
+                        'didn\'t know kanna is underaged, and masturbating to kanna hentai',
+                        'was a boomer on the internet',
+                        'got offended because jschlatt laughed at blackface',
+                        'throat fucked a snapping turtle',
+                        'POSSESSIVE_MARKER_NATURAL family caught them fucking the dog',
+                        'got sent back to the times of middle english',
+                        'ðrâg cuman wægn of middeld¯æl Englaland (was sent back to middle england)',
+                        'created a boolean pointer with a size of 8 bytes despite the fact that it could have been a single byte',
+                        'er könnte diese Tod nicht Meldung lesen',
+                        'はこれ伝言を読んでできなかったよ',
+                        'drank localized beer in a country that ate and drank tape worms',
+                        'shat out blood',
+                        'came, but in french',
+                        'shitted & peepeed & coomed',
+                        'fucked a praying mantis',
+                        'was a dog in jojo no kimyou na bouken',
+                        'bought a blue yeti but then didn\'t have the confidence to reveal their voice',
+                        'acted like a little bitch because zen made an offensive joke',
+                        'was under 13 on the lowercase discord server',
+                        'went into an nsfw channel and openly told everybody they were underaged',
+                        'was too cringey and zen kicked them',
+                        'ate a s̶̡̬̉h̵̹̓̓i̷͖̐́͘͘͝ṉ̷̝̕ǫ̶̻̫̖͎̊̕͝p̵̤͍̋̓e̸͇͍̝̰͂̐̍͛d̸̞̘͉̣͎̽̅̆a̶̹̖̰̅̈́ḳ̴̢̖͇̒̋̐ợ̸̩͐͌̚̕ų̷̳̪̟̺̃̅n̵̪̐ȩ̷̤͌͒̕͜p̷͖͍̲̀͂͘p̴͕̺̕e̷͈͕̗̿̾͘n̵̖̰̣̜̹͌̕s̵̛̹̰h̴͚̥̃͌e̶̞̼̤̟͐̀r̷̡̹̱͓̬͋̑̇ḏ̶̝̙̦̗̓ḛ̸͎̻̤̦̏͛n̴̟̖̟̳̥͌̈́͛̇͘ fruit',
+                        'Believed in JeSus, but jeSus was the imposter',
+                        'please help zen holds me hostage in his basement',
+                        'played amogus',
+                        'didn\'t play minecraft',
+                        'unironically liked fortnite',
+                        'accidentally made arashi drink distilled water instead of spring water, which made zen so made he flooded their guts with cum',
+                        'took that bruh pill',
+                        'smoked that good kush',
+                        'went gentle into that good night',
+                        'listened to zen\'s voice then fucking exploded',
+                        'was a furry on tiktok who liked fortnite and had \'undiagnosed depression\'',
+                        'liked amogus and for fuck\'s sake I FUCKING HATE AMONG US ITS SO FUCKING ANNOYING "SUS SUS YOU SUS" LIKE BRO SHUT THE FUCK UP YOU ANNOYING LITTLE SHIT NOBODY CARES ABOUT YOUR STUPID FUCKING GAME. I\'M SICK AND TIRED OF HEARING "SUS SUS YOU SUS" EVERY FUCKING TIME I BREATHE. PLEASE SHUT THE FUCK UP'
                     ]
-                    await send(f'{(message.mentions[0]).mention}, ' + rchoice(death) + '.')
+                    if rchoice(death).startswith('POSSESSIVE_MARKER_NATURAL'): await send(f'{(message.mentions[0]).mention}\'s ' + rchoice(death).replace('POSSESSIVE_MARKER_NATURAL ', '') + '.')
+                    elif: rchoice(death).startswith('POSSESSIVE_MARKER_UNNATURAL_PLURAL'): await send(f'{(message.mentions[0]).mention}\' ' + rchoice(death).replace('POSSESSIVE_MARKER_UNNATURAL_PLURAL ', '') + '.')
+                    elif: rchoice(death).startswith('POSSESSIVE_MARKER_UNNATURAL_NAME'): await send(f'{(message.mentions[0]).mention}\' ' + rchoice(death).replace('POSSESSIVE_MARKER_UNNATURAL_NAME ', '') + '.')
+                    else: await send(f'{(message.mentions[0]).mention}, ' + rchoice(death) + '.')
                 except:
                     await send('Please enter proper arguments')
             elif content == 'l3!rps':
