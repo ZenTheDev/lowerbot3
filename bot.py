@@ -218,8 +218,8 @@ try:
                         'liked amogus and for fuck\'s sake I FUCKING HATE AMONG US ITS SO FUCKING ANNOYING "SUS SUS YOU SUS" LIKE BRO SHUT THE FUCK UP YOU ANNOYING LITTLE SHIT NOBODY CARES ABOUT YOUR STUPID FUCKING GAME. I\'M SICK AND TIRED OF HEARING "SUS SUS YOU SUS" EVERY FUCKING TIME I BREATHE. PLEASE SHUT THE FUCK UP'
                     ]
                     if rchoice(death).startswith('POSSESSIVE_MARKER_NATURAL'): await send(f'{(message.mentions[0]).mention}\'s ' + rchoice(death).replace('POSSESSIVE_MARKER_NATURAL ', '') + '.')
-                    elif: rchoice(death).startswith('POSSESSIVE_MARKER_UNNATURAL_PLURAL'): await send(f'{(message.mentions[0]).mention}\' ' + rchoice(death).replace('POSSESSIVE_MARKER_UNNATURAL_PLURAL ', '') + '.')
-                    elif: rchoice(death).startswith('POSSESSIVE_MARKER_UNNATURAL_NAME'): await send(f'{(message.mentions[0]).mention}\' ' + rchoice(death).replace('POSSESSIVE_MARKER_UNNATURAL_NAME ', '') + '.')
+                    elif rchoice(death).startswith('POSSESSIVE_MARKER_UNNATURAL_PLURAL'): await send(f'{(message.mentions[0]).mention}\' ' + rchoice(death).replace('POSSESSIVE_MARKER_UNNATURAL_PLURAL ', '') + '.')
+                    elif rchoice(death).startswith('POSSESSIVE_MARKER_UNNATURAL_NAME'): await send(f'{(message.mentions[0]).mention}\' ' + rchoice(death).replace('POSSESSIVE_MARKER_UNNATURAL_NAME ', '') + '.')
                     else: await send(f'{(message.mentions[0]).mention}, ' + rchoice(death) + '.')
                 except:
                     await send('Please enter proper arguments')
